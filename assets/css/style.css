@@ -1,0 +1,76 @@
+:root {
+    --text: #3c3c3b;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: var(--text);
+}
+
+.hero {
+    padding: 4rem 0;
+    text-align: center;
+    border-bottom: .5rem solid var(--text);
+}
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#date {
+    font-weight: 700;
+}
+
+.calendar {
+    margin: 5rem auto;
+    max-width: 120rem;
+    font-weight: 700;
+}
+
+.hour-row {
+    min-height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hour {
+    border-radius: 5rem;
+    background: rgba(60, 60, 59, 0.2);
+}
+
+.event {
+    border: none;
+    border-radius: 5rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.save {
+    border-radius: 5rem;
+    background: rgba(60, 60, 59, 0.2);
+    cursor: pointer;
+}
+
+.event:focus {
+    outline: none;
+}
+
+.past {
+    background: rgba(60, 60, 59, 0.4);
+}
+
+.present {
+    background: #ff7964;
+}
+
+.future {
+    background: #23e5b0;
+}
